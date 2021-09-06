@@ -11,7 +11,7 @@
 }
 
 body{
-    width: 1200px;
+    width: 1090px;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -38,37 +38,34 @@ body{
     font-size: .95rem;
 }
 
-
-
-
-/* DEBUG */
-
-.debug .nav{
-    height: 100px;
-    background-color: violet;
+.hero{
+    color: white;
+    background-image: url(./img/banner.jpg);
+    height: 425px;
+    background-position: center;
+    border-radius: 10px;
 }
 
-.debug .hero{
-    height: 350px;
-    background-color: tan;
-
+.hero-overlay{
+    height: 425px;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
 }
 
-.debug .topic{
-    height: 70px;
-    background-color: skyblue;
+.hero-title{
+    font-size: 1.7rem;
+    font-weight: 400;
 }
 
-.debug .article-column > div{
-    height: 350px;
-    background-color: skyblue;
+.text-container{
+    width: 55%;
+    padding-top: 270px;
+    padding-left: 40px;
 }
 
-.debug .copywright{
-    height: 50px;
-    background-color: firebrick;
+.hero-text{
+    font-size: .90rem;
 }
-
 
 /* Common */
 
@@ -98,7 +95,7 @@ body{
     color: #9F9F9F;
     font-size: .90rem;
     margin-right: 4px;
-    font-weight: 400;
+    font-weight:500;
 }
 
 .article-column h4{
@@ -106,6 +103,33 @@ body{
     margin-bottom: 4px;
 }
 
-.hero{
-    color: white;
+
+
+
+/* DEBUG */
+
+.debug .nav{
+    height: 100px;
+    background-color: violet;
+}
+
+.debug .hero{
+    height: 350px;
+    background-color: tan;
+
+}
+
+.debug .topic{
+    height: 70px;
+    background-color: skyblue;
+}
+
+.debug .article-column > div{
+    height: 350px;
+    background-color: skyblue;
+}
+
+.debug .copywright{
+    height: 30px;
+    background-color: firebrick;
 }
