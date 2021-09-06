@@ -109,7 +109,7 @@ body{
 }
 
 .nav, .hero, .article-column, .topic, footer{
-   margin-bottom: 50px;  
+   margin-bottom: 40px;  
 }
 
 .nav-options span, .topic p, .article-column p{
@@ -133,33 +133,4 @@ aside .article-img{
     height: 200px;
     background-color: rgba(0, 0, 0, 0.151);
     border-radius: 10px;
-}
-
-
-/* DEBUG */
-
-.debug .nav{
-    height: 100px;
-    background-color: violet;
-}
-
-.debug .hero{
-    height: 350px;
-    background-color: tan;
-
-}
-
-.debug .topic{
-    height: 70px;
-    background-color: skyblue;
-}
-
-.debug .article-column > div{
-    height: 350px;
-    background-color: skyblue;
-}
-
-.debug .copywright{
-    height: 30px;
-    background-color: firebrick;
 }
